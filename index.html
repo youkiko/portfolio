@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio - Développeur Web</title>
+    <link rel="stylesheet" href="css/style.css">
+	<script src="js/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="accueil" class="hero">
+            <div class="hero-content">
+                <h1>Bonjour, je suis <span class="highlight">Geoffrey Lepers</span></h1>
+                <h2>Développeur Web Passionné</h2>
+                <p>Je crée des <strong>expériences web</strong> <em>modernes</em> et <em>intuitives</em> avec une attention particulière pour <strong>l'innovation</strong> et la <strong>qualité</strong>.</p>
+                <a href="#contact" class="cta-button">Me Contacter</a>
+            </div>
+        </section>
+
+        <div class="neon-ring-container">
+            <div class="neon-ring primary"></div>
+            <div class="neon-ring secondary"></div>
+            <div class="neon-ring primary ring-xy"></div>
+            <div class="neon-ring secondary ring-xy"></div>
+            <div class="neon-ring primary ring-yz"></div>
+            <div class="neon-ring secondary ring-yz"></div>
+            <div class="neon-ring primary ring-xz"></div>
+            <div class="neon-ring secondary ring-xz"></div>
+        </div>
+
+        <section id="projets" class="projects">
+            <h2>Mes Projets</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <a href="#" target="_blank" class="project-link">
+                        <div class="project-image">
+                            <img src="image3.png" alt="Aperçu du projet 1">
+                            <div class="project-overlay">
+                                <i class="fas fa-external-link-alt"></i>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Somnus Bartender</h3>
+                            <p>Bar événementiel</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <a href="#" target="_blank" class="project-link">
+                        <div class="project-image">
+                            <img src="image2.png" alt="Aperçu du projet 2">
+                            <div class="project-overlay">
+                                <i class="fas fa-external-link-alt"></i>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Amicale des Pompiers</h3>
+                            <p>Application de suivi de commandes</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <a href="https://url-de-votre-projet-3.com" target="_blank" class="project-link">
+                        <div class="project-image">
+                            <img src="image.png" alt="Aperçu du projet 3">
+                            <div class="project-overlay">
+                                <i class="fas fa-external-link-alt"></i>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Hyperpost</h3>
+                            <p>Le marketing vidéo au service de la croissance</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="competences" class="skills">
+            <h2>Mes Compétences</h2>
+            <div class="skills-container">
+                <div class="skill-section">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>Responsive Design</li>
+                    </ul>
+                </div>
+                <div class="skill-section">
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>PHP</li>
+                        <li>SQL</li>
+                        <li>Symfony</li>
+                        <li>GitHub</li>
+                        <li>Docker</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>À Propos de Moi</h2>
+            <div class="about-content">
+                <p>Passionné par le <strong>développement</strong>, je suis <em>motivé</em> et <em>créatif</em>, toujours à la recherche de solutions adaptées aux besoins des clients, tout en respectant l'identité des marques. Curieux et autodidacte, j'aime relever des défis et surtout les mener à bien.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Me Contacter</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:geoffreylepers%40gmail.com">geoffreylepers@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/geoffrey-lepers-930024294/" target="_blank">LinkedIn</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <a href="https://github.com/youkiko" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/youkiko" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/geoffrey-lepers-930024294/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p>&copy; 2024 Lepers Geoffrey. Tous droits réservés.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/lightning.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</body>
+</html> 
